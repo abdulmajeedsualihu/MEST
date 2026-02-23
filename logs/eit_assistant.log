@@ -855,3 +855,104 @@ Please retry in 18.200206788s. [links {
 2026-02-23 16:03:23 - eit_assistant - INFO - Fetching article from URL: https://httpbin.org/html
 2026-02-23 16:03:25 - eit_assistant - INFO - Successfully fetched URL, status code: 200
 2026-02-23 16:03:25 - eit_assistant - INFO - Successfully extracted 3566 characters from URL
+2026-02-23 16:51:47 - eit_assistant - INFO - Starting EIT Assistant application
+2026-02-23 16:51:47 - eit_assistant - INFO - Generating greeting message
+2026-02-23 16:52:15 - eit_assistant - INFO - Starting EIT Assistant application
+2026-02-23 16:52:16 - eit_assistant - INFO - Extracting text from PDF file
+2026-02-23 16:52:16 - eit_assistant - INFO - PDF has 32 pages
+2026-02-23 16:52:16 - eit_assistant - DEBUG - Extracted 143 characters from page 1
+2026-02-23 16:52:16 - eit_assistant - DEBUG - Extracted 943 characters from page 2
+2026-02-23 16:52:16 - eit_assistant - DEBUG - Extracted 917 characters from page 3
+2026-02-23 16:52:16 - eit_assistant - DEBUG - Extracted 875 characters from page 4
+2026-02-23 16:52:16 - eit_assistant - DEBUG - Extracted 781 characters from page 5
+2026-02-23 16:52:16 - eit_assistant - DEBUG - Extracted 619 characters from page 6
+2026-02-23 16:52:16 - eit_assistant - DEBUG - Extracted 1070 characters from page 7
+2026-02-23 16:52:16 - eit_assistant - DEBUG - Extracted 970 characters from page 8
+2026-02-23 16:52:16 - eit_assistant - DEBUG - Extracted 915 characters from page 9
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 942 characters from page 10
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 982 characters from page 11
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 1048 characters from page 12
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 851 characters from page 13
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 869 characters from page 14
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 970 characters from page 15
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 1025 characters from page 16
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 1204 characters from page 17
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 906 characters from page 18
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 875 characters from page 19
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 950 characters from page 20
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 854 characters from page 21
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 1025 characters from page 22
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 908 characters from page 23
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 997 characters from page 24
+2026-02-23 16:52:17 - eit_assistant - DEBUG - Extracted 1006 characters from page 25
+2026-02-23 16:52:18 - eit_assistant - DEBUG - Extracted 994 characters from page 26
+2026-02-23 16:52:18 - eit_assistant - DEBUG - Extracted 953 characters from page 27
+2026-02-23 16:52:18 - eit_assistant - DEBUG - Extracted 941 characters from page 28
+2026-02-23 16:52:18 - eit_assistant - DEBUG - Extracted 1176 characters from page 29
+2026-02-23 16:52:18 - eit_assistant - DEBUG - Extracted 1179 characters from page 30
+2026-02-23 16:52:18 - eit_assistant - DEBUG - Extracted 932 characters from page 31
+2026-02-23 16:52:18 - eit_assistant - INFO - Successfully extracted 28880 characters from PDF
+2026-02-23 16:52:18 - eit_assistant - INFO - Gemini model initialized successfully
+2026-02-23 16:52:18 - eit_assistant - INFO - Summarizing text of length 28880 characters
+2026-02-23 16:52:18 - eit_assistant - DEBUG - Returning personality prompt
+2026-02-23 16:52:40 - eit_assistant - INFO - Successfully generated summary of 3382 characters
+2026-02-23 16:53:15 - eit_assistant - INFO - Starting EIT Assistant application
+2026-02-23 16:53:16 - eit_assistant - INFO - Fetching article from URL: https://alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdfhttps://alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdf
+2026-02-23 16:53:19 - eit_assistant - ERROR - HTTP error for URL https://alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdfhttps://alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdf: 404 Client Error: Not Found for url: https://alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdfhttps:/alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdf
+2026-02-23 16:53:19 - eit_assistant - ERROR - URL Handler Error: HTTP error: 404 Client Error: Not Found for url: https://alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdfhttps:/alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdf
+2026-02-23 16:56:54 - eit_assistant - INFO - Starting EIT Assistant application
+2026-02-23 16:56:54 - eit_assistant - INFO - Fetching article from URL: https://alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdf
+2026-02-23 16:56:59 - eit_assistant - INFO - Successfully fetched URL, status code: 200
+2026-02-23 16:57:00 - eit_assistant - INFO - Starting EIT Assistant application
+2026-02-23 16:57:00 - eit_assistant - INFO - Successfully extracted 687873 characters from URL
+2026-02-23 16:57:00 - eit_assistant - INFO - Fetching article from URL: https://alphaideas.in/wp-content/uploads/2014/10/Felix-Dennis-How-to-Get-Rich.pdf
+2026-02-23 16:57:05 - eit_assistant - INFO - Successfully fetched URL, status code: 200
+2026-02-23 16:57:06 - eit_assistant - INFO - Successfully extracted 687873 characters from URL
+2026-02-23 16:57:06 - eit_assistant - INFO - Summarizing text of length 687873 characters
+2026-02-23 16:57:06 - eit_assistant - DEBUG - Returning personality prompt
+2026-02-23 16:57:08 - eit_assistant - ERROR - Error during summarization: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 250000, model: gemini-3-flash
+Please retry in 51.873106396s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 250000
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2026-02-23 16:57:08 - eit_assistant - ERROR - Summarizer Error: Summarization failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 250000, model: gemini-3-flash
+Please retry in 51.873106396s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 250000
+}
+, retry_delay {
+  seconds: 51
+}
+]

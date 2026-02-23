@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 from src.logger import logger
 from src.personality import get_greeting, get_name
 from src.url_handler import fetch_article_from_url, URLHandlerError
@@ -10,6 +11,12 @@ st.set_page_config(
     page_icon="🤖",
     layout="wide"
 )
+
+def show_loading(message: str):
+    return st.empty()
+
+def show_loading_spinner(message: str):
+    return st.spinner(f"⏳ {message}")
 
 def init_session_state():
     if "messages" not in st.session_state:
@@ -24,69 +31,92 @@ def show_greeting():
 
 def handle_url_summarization(url: str):
     try:
-        with st.spinner("Fetching article from URL..."):
-            article_text = fetch_article_from_url(url)
+        loading_placeholder = st.empty()
+        loading_placeholder.info("🔄 Fetching article from URL... Please wait...")
         
-        with st.spinner("Summarizing article..."):
-            summarizer = get_summarizer()
-            summary = summarizer.summarize_text(article_text)
+        article_text = fetch_article_from_url(url)
+        loading_placeholder.empty()
         
-        st.success("Summary generated successfully!")
+        loading_placeholder.info("✍️ Summarizing article... Please wait...")
+        
+        summarizer = get_summarizer()
+        summary = summarizer.summarize_text(article_text)
+        loading_placeholder.empty()
+        
+        st.success("✅ Summary generated successfully!")
         st.chat_message("assistant").markdown(f"**📝 Article Summary:**\n\n{summary}")
         
     except URLHandlerError as e:
-        st.error(f"Error fetching URL: {str(e)}")
+        st.error(f"❌ Error fetching URL: {str(e)}")
         logger.error(f"URL Handler Error: {str(e)}")
     except SummarizerError as e:
-        st.error(f"Error summarizing: {str(e)}")
+        st.error(f"❌ Error summarizing: {str(e)}")
         logger.error(f"Summarizer Error: {str(e)}")
     except Exception as e:
-        st.error(f"An unexpected error occurred: {str(e)}")
+        st.error(f"❌ An unexpected error occurred: {str(e)}")
         logger.error(f"Unexpected error in URL summarization: {str(e)}")
 
 def handle_pdf_summarization(pdf_file):
     try:
-        with st.spinner("Extracting text from PDF..."):
-            pdf_text = extract_text_from_pdf(pdf_file)
+        loading_placeholder = st.empty()
+        loading_placeholder.info("📄 Extracting text from PDF... Please wait...")
         
-        with st.spinner("Summarizing PDF..."):
-            summarizer = get_summarizer()
-            summary = summarizer.summarize_text(pdf_text)
+        pdf_text = extract_text_from_pdf(pdf_file)
+        loading_placeholder.empty()
         
-        st.success("PDF Summary generated successfully!")
+        loading_placeholder.info("✍️ Summarizing PDF... Please wait...")
+        
+        summarizer = get_summarizer()
+        summary = summarizer.summarize_text(pdf_text)
+        loading_placeholder.empty()
+        
+        st.success("✅ PDF Summary generated successfully!")
         st.chat_message("assistant").markdown(f"**📄 PDF Summary:**\n\n{summary}")
         
     except PDFHandlerError as e:
-        st.error(f"Error processing PDF: {str(e)}")
+        st.error(f"❌ Error processing PDF: {str(e)}")
         logger.error(f"PDF Handler Error: {str(e)}")
     except SummarizerError as e:
-        st.error(f"Error summarizing: {str(e)}")
+        st.error(f"❌ Error summarizing: {str(e)}")
         logger.error(f"Summarizer Error: {str(e)}")
     except Exception as e:
-        st.error(f"An unexpected error occurred: {str(e)}")
+        st.error(f"❌ An unexpected error occurred: {str(e)}")
         logger.error(f"Unexpected error in PDF summarization: {str(e)}")
 
 def handle_chat(user_message: str):
     st.session_state.messages.append({"role": "user", "content": user_message})
     
     try:
-        with st.spinner("EIT is thinking..."):
-            summarizer = get_summarizer()
-            history = [
-                {"user": m["content"], "assistant": st.session_state.messages[i+1]["content"]}
-                for i, m in enumerate(st.session_state.messages[:-1])
-                if m["role"] == "user" and i + 1 < len(st.session_state.messages) and st.session_state.messages[i+1]["role"] == "assistant"
-            ]
-            response = summarizer.chat(user_message, history)
+        loading_placeholder = st.empty()
+        progress_bar = st.progress(0)
+        
+        loading_placeholder.info("🤔 EIT is thinking... Please wait...")
+        progress_bar.progress(25)
+        
+        summarizer = get_summarizer()
+        history = [
+            {"user": m["content"], "assistant": st.session_state.messages[i+1]["content"]}
+            for i, m in enumerate(st.session_state.messages[:-1])
+            if m["role"] == "user" and i + 1 < len(st.session_state.messages) and st.session_state.messages[i+1]["role"] == "assistant"
+        ]
+        
+        progress_bar.progress(50)
+        loading_placeholder.info("💭 Generating response...")
+        
+        response = summarizer.chat(user_message, history)
+        
+        progress_bar.progress(100)
+        loading_placeholder.empty()
+        progress_bar.empty()
         
         st.session_state.messages.append({"role": "assistant", "content": response})
         st.chat_message("assistant").markdown(response)
         
     except SummarizerError as e:
-        st.error(f"Error: {str(e)}")
+        st.error(f"❌ Error: {str(e)}")
         logger.error(f"Chat Error: {str(e)}")
     except Exception as e:
-        st.error(f"An unexpected error occurred: {str(e)}")
+        st.error(f"❌ An unexpected error occurred: {str(e)}")
         logger.error(f"Unexpected error in chat: {str(e)}")
 
 def main():
@@ -94,6 +124,9 @@ def main():
     
     st.title(f"🤖 {get_name()} - AI Assistant")
     st.markdown("---")
+    
+    with st.spinner("🤖 Loading EIT Assistant..."):
+        time.sleep(0.5)
     
     show_greeting()
     

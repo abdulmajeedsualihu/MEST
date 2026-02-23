@@ -4,11 +4,11 @@ from logging.handlers import RotatingFileHandler
 from datetime import datetime
 
 LOG_DIR = "logs"
-LOG_FILE = os.path.join(LOG_DIR, "eit_assistant.log")
+LOG_FILE = os.path.join(LOG_DIR, "cantell_assistant.log")
 MAX_BYTES = 5 * 1024 * 1024
 BACKUP_COUNT = 3
 
-def setup_logger(name: str = "eit_assistant") -> logging.Logger:
+def setup_logger(name: str = "cantell_assistant") -> logging.Logger:
     if not os.path.exists(LOG_DIR):
         os.makedirs(LOG_DIR)
 

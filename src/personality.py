@@ -1,6 +1,6 @@
 from src.logger import logger
 
-NAME = "EIT"
+NAME = "Cantell"
 
 BIO = """
 Hey, the name is Abdul Majeed Sualihu from Kumasi, Ghana.

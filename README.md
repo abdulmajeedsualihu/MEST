@@ -1,13 +1,13 @@
-# EIT - AI Assistant
+# Cantell - AI Assistant
 
-EIT is an AI Assistant created by Abdul Majeed Sualihu from Ghana. It can summarize articles from URLs and PDFs, and engage in conversation.
+Cantell is an AI Assistant created by Abdul Majeed Sualihu from Ghana. It can summarize articles from URLs and PDFs, and engage in conversation.
 
 ## Features
 
-- **Chat**: Have a conversation with EIT
+- **Chat**: Have a conversation with Cantell
 - **URL Summarization**: Paste a link to an article and get a summary
 - **PDF Summarization**: Upload a PDF document and get a summary
-- **Personality**: EIT has a unique personality based on its creator
+- **Personality**: Cantell has a unique personality based on its creator
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ EIT is an AI Assistant created by Abdul Majeed Sualihu from Ghana. It can summar
 
 1. **Clone the repository**
    ```bash
-   cd Week8
+   cd MEST
    ```
 
 2. **Create a virtual environment** (optional but recommended)
@@ -57,24 +57,24 @@ The application will open in your default browser at `http://localhost:8501`.
 
 ### Chat with EIT
 - Type your message in the "Chat" tab
-- EIT will respond based on its personality
+- Cantell will respond based on its personality
 
 ### Summarize a URL
 1. Go to the "URL Summary" tab
 2. Paste the article URL
 3. Click "Summarize URL"
-4. EIT will fetch and summarize the article
+4. Cantell will fetch and summarize the article
 
 ### Summarize a PDF
 1. Go to the "PDF Summary" tab
 2. Upload a PDF file
 3. Click "Summarize PDF"
-4. EIT will extract text and summarize the PDF
+4. Cantell will extract text and summarize the PDF
 
 ## Project Structure
 
 ```
-Week8/
+MEST/
 ├── app.py              # Main Streamlit application
 ├── requirements.txt    # Python dependencies
 ├── README.md           # This file
@@ -82,7 +82,7 @@ Week8/
 ├── src/
 │   ├── __init__.py
 │   ├── logger.py       # Logging configuration
-│   ├── personality.py  # EIT's personality
+│   ├── personality.py  # Cantell's personality
 │   ├── url_handler.py  # URL fetching & parsing
 │   ├── pdf_handler.py  # PDF text extraction
 │   └── summarizer.py   # Gemini summarization
@@ -91,7 +91,7 @@ Week8/
 
 ## Logs
 
-Logs are stored in the `logs/` directory. Check `logs/eit_assistant.log` for application logs.
+Logs are stored in the `logs/` directory. Check `logs/cantell_assistant.log` for application logs.
 
 ## Error Handling
 

@@ -91,6 +91,46 @@ EIT:"""
         except Exception as e:
             logger.error(f"Error during chat: {str(e)}")
             raise SummarizerError(f"Chat failed: {str(e)}")
+    
+    def chat_about_pdf(self, question: str, pdf_text: str) -> str:
+        logger.info(f"PDF chat question: {question[:50]}...")
+        
+        if not question or not question.strip():
+            raise SummarizerError("Please provide a question.")
+        
+        if not pdf_text or not pdf_text.strip():
+            raise SummarizerError("No PDF content available. Please upload a PDF first.")
+        
+        try:
+            truncated_text = pdf_text[:15000]
+            
+            prompt = f"""{get_personality_prompt()}
+
+You are helping the user understand a PDF document. 
+Use ONLY the content from the PDF below to answer the user's question.
+If the answer is not in the PDF, say so clearly.
+Be helpful, clear, and concise in your response.
+
+PDF Content:
+---
+{truncated_text}
+---
+
+User's Question: {question}
+
+Your Answer:"""
+            
+            response = self.model.generate_content(prompt)
+            
+            if not response.text:
+                raise SummarizerError("Failed to generate response. Please try again.")
+            
+            logger.info("Successfully generated PDF chat response")
+            return response.text
+            
+        except Exception as e:
+            logger.error(f"Error during PDF chat: {str(e)}")
+            raise SummarizerError(f"PDF chat failed: {str(e)}")
 
 summarizer = None
 

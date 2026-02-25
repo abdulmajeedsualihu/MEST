@@ -1,0 +1,214 @@
+2026-02-23 20:49:12 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-23 20:49:13 - cantell_assistant - INFO - Generating greeting message
+2026-02-23 20:52:41 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-23 20:52:42 - cantell_assistant - INFO - Generating greeting message
+2026-02-25 09:17:47 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:17:48 - cantell_assistant - INFO - Generating greeting message
+2026-02-25 09:19:50 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:19:50 - cantell_assistant - INFO - Extracting text from PDF file
+2026-02-25 09:19:50 - cantell_assistant - INFO - PDF has 16 pages
+2026-02-25 09:19:50 - cantell_assistant - DEBUG - Extracted 123 characters from page 1
+2026-02-25 09:19:50 - cantell_assistant - DEBUG - Extracted 284 characters from page 2
+2026-02-25 09:19:50 - cantell_assistant - DEBUG - Extracted 638 characters from page 3
+2026-02-25 09:19:50 - cantell_assistant - DEBUG - Extracted 72 characters from page 4
+2026-02-25 09:19:50 - cantell_assistant - DEBUG - Extracted 18 characters from page 5
+2026-02-25 09:19:50 - cantell_assistant - DEBUG - Extracted 905 characters from page 6
+2026-02-25 09:19:50 - cantell_assistant - DEBUG - Extracted 460 characters from page 7
+2026-02-25 09:19:50 - cantell_assistant - DEBUG - Extracted 245 characters from page 8
+2026-02-25 09:19:50 - cantell_assistant - DEBUG - Extracted 588 characters from page 9
+2026-02-25 09:19:51 - cantell_assistant - DEBUG - Extracted 488 characters from page 10
+2026-02-25 09:19:51 - cantell_assistant - DEBUG - Extracted 418 characters from page 11
+2026-02-25 09:19:51 - cantell_assistant - DEBUG - Extracted 711 characters from page 12
+2026-02-25 09:19:51 - cantell_assistant - DEBUG - Extracted 1075 characters from page 13
+2026-02-25 09:19:51 - cantell_assistant - DEBUG - Extracted 92 characters from page 14
+2026-02-25 09:19:51 - cantell_assistant - DEBUG - Extracted 486 characters from page 15
+2026-02-25 09:19:51 - cantell_assistant - DEBUG - Extracted 17 characters from page 16
+2026-02-25 09:19:51 - cantell_assistant - INFO - Successfully extracted 6650 characters from PDF
+2026-02-25 09:19:51 - cantell_assistant - ERROR - Failed to initialize Gemini model: module 'google.genai' has no attribute 'configure'
+2026-02-25 09:19:51 - cantell_assistant - ERROR - Unexpected error in PDF summarization: module 'google.genai' has no attribute 'configure'
+2026-02-25 09:22:35 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:22:36 - cantell_assistant - INFO - Generating greeting message
+2026-02-25 09:23:01 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:23:01 - cantell_assistant - INFO - Extracting text from PDF file
+2026-02-25 09:23:02 - cantell_assistant - INFO - PDF has 32 pages
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 143 characters from page 1
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 943 characters from page 2
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 917 characters from page 3
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 875 characters from page 4
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 781 characters from page 5
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 619 characters from page 6
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 1070 characters from page 7
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 970 characters from page 8
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 915 characters from page 9
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 942 characters from page 10
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 982 characters from page 11
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 1048 characters from page 12
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 851 characters from page 13
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 869 characters from page 14
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 970 characters from page 15
+2026-02-25 09:23:02 - cantell_assistant - DEBUG - Extracted 1025 characters from page 16
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 1204 characters from page 17
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 906 characters from page 18
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 875 characters from page 19
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 950 characters from page 20
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 854 characters from page 21
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 1025 characters from page 22
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 908 characters from page 23
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 997 characters from page 24
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 1006 characters from page 25
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 994 characters from page 26
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 953 characters from page 27
+2026-02-25 09:23:03 - cantell_assistant - DEBUG - Extracted 941 characters from page 28
+2026-02-25 09:23:04 - cantell_assistant - DEBUG - Extracted 1176 characters from page 29
+2026-02-25 09:23:04 - cantell_assistant - DEBUG - Extracted 1179 characters from page 30
+2026-02-25 09:23:04 - cantell_assistant - DEBUG - Extracted 932 characters from page 31
+2026-02-25 09:23:04 - cantell_assistant - INFO - Successfully extracted 28880 characters from PDF
+2026-02-25 09:23:04 - cantell_assistant - INFO - Gemini model initialized successfully
+2026-02-25 09:23:04 - cantell_assistant - INFO - Summarizing text of length 28880 characters
+2026-02-25 09:23:04 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 09:25:03 - cantell_assistant - INFO - Successfully generated summary of 3260 characters
+2026-02-25 09:27:23 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:27:24 - cantell_assistant - INFO - Chat message received: Can you summarize a candidate in MEST Bio profile...
+2026-02-25 09:27:24 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 09:28:12 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 09:29:29 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:29:29 - cantell_assistant - INFO - Chat message received: MEST AI STARTUP PROGRAM
+MEST AI STARTUP PROGRAM
+ME...
+2026-02-25 09:29:29 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 09:31:51 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 09:34:58 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:34:58 - cantell_assistant - INFO - Chat message received: Who is the founder of TrotroLive...
+2026-02-25 09:34:58 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 09:35:22 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 09:37:34 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:37:34 - cantell_assistant - INFO - Chat message received: Who is Tech Pastor...
+2026-02-25 09:37:34 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 09:37:55 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 09:38:33 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:38:34 - cantell_assistant - INFO - Chat message received: Who is Parfait...
+2026-02-25 09:38:34 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 09:38:41 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 09:40:32 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 09:40:33 - cantell_assistant - INFO - Chat message received: Khalifa...
+2026-02-25 09:40:33 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 09:40:43 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 12:01:18 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:01:19 - cantell_assistant - INFO - Generating greeting message
+2026-02-25 12:01:19 - cantell_assistant - INFO - Chat message received: What is your name?...
+2026-02-25 12:01:19 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 12:03:18 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 12:05:08 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:05:09 - cantell_assistant - INFO - Fetching article from URL: https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+2026-02-25 12:05:11 - cantell_assistant - INFO - Successfully fetched URL, status code: 200
+2026-02-25 12:05:11 - cantell_assistant - INFO - Successfully extracted 391 characters from URL
+2026-02-25 12:05:11 - cantell_assistant - INFO - Summarizing text of length 458 characters
+2026-02-25 12:05:11 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 12:05:37 - cantell_assistant - INFO - Successfully generated summary of 1852 characters
+2026-02-25 12:07:58 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:07:58 - cantell_assistant - INFO - Chat message received: who is Kwame Nkrumah...
+2026-02-25 12:07:58 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 12:08:59 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 12:09:14 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:09:14 - cantell_assistant - INFO - Generating greeting message
+2026-02-25 12:16:41 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:16:42 - cantell_assistant - INFO - Generating greeting message
+2026-02-25 12:17:01 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:17:15 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:17:15 - cantell_assistant - INFO - Extracting text from PDF file
+2026-02-25 12:17:16 - cantell_assistant - INFO - PDF has 32 pages
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 143 characters from page 1
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 943 characters from page 2
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 917 characters from page 3
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 875 characters from page 4
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 781 characters from page 5
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 619 characters from page 6
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 1070 characters from page 7
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 970 characters from page 8
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 915 characters from page 9
+2026-02-25 12:17:16 - cantell_assistant - DEBUG - Extracted 942 characters from page 10
+2026-02-25 12:17:17 - cantell_assistant - DEBUG - Extracted 982 characters from page 11
+2026-02-25 12:17:17 - cantell_assistant - DEBUG - Extracted 1048 characters from page 12
+2026-02-25 12:17:17 - cantell_assistant - DEBUG - Extracted 851 characters from page 13
+2026-02-25 12:17:17 - cantell_assistant - DEBUG - Extracted 869 characters from page 14
+2026-02-25 12:17:17 - cantell_assistant - DEBUG - Extracted 970 characters from page 15
+2026-02-25 12:17:17 - cantell_assistant - DEBUG - Extracted 1025 characters from page 16
+2026-02-25 12:17:17 - cantell_assistant - DEBUG - Extracted 1204 characters from page 17
+2026-02-25 12:17:17 - cantell_assistant - DEBUG - Extracted 906 characters from page 18
+2026-02-25 12:17:17 - cantell_assistant - DEBUG - Extracted 875 characters from page 19
+2026-02-25 12:17:18 - cantell_assistant - DEBUG - Extracted 950 characters from page 20
+2026-02-25 12:17:18 - cantell_assistant - DEBUG - Extracted 854 characters from page 21
+2026-02-25 12:17:18 - cantell_assistant - DEBUG - Extracted 1025 characters from page 22
+2026-02-25 12:17:18 - cantell_assistant - DEBUG - Extracted 908 characters from page 23
+2026-02-25 12:17:18 - cantell_assistant - DEBUG - Extracted 997 characters from page 24
+2026-02-25 12:17:18 - cantell_assistant - DEBUG - Extracted 1006 characters from page 25
+2026-02-25 12:17:18 - cantell_assistant - DEBUG - Extracted 994 characters from page 26
+2026-02-25 12:17:18 - cantell_assistant - DEBUG - Extracted 953 characters from page 27
+2026-02-25 12:17:18 - cantell_assistant - DEBUG - Extracted 941 characters from page 28
+2026-02-25 12:17:19 - cantell_assistant - DEBUG - Extracted 1176 characters from page 29
+2026-02-25 12:17:19 - cantell_assistant - DEBUG - Extracted 1179 characters from page 30
+2026-02-25 12:17:19 - cantell_assistant - DEBUG - Extracted 932 characters from page 31
+2026-02-25 12:17:19 - cantell_assistant - INFO - Successfully extracted 28880 characters from PDF
+2026-02-25 12:17:19 - cantell_assistant - INFO - Gemini model initialized successfully
+2026-02-25 12:17:19 - cantell_assistant - INFO - Summarizing text of length 28880 characters
+2026-02-25 12:17:19 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 12:17:48 - cantell_assistant - INFO - Successfully generated summary of 3532 characters
+2026-02-25 12:38:18 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:38:40 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:38:41 - cantell_assistant - INFO - Gemini model initialized successfully
+2026-02-25 12:38:41 - cantell_assistant - INFO - Chat message received: List the names of the EIT's...
+2026-02-25 12:38:41 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 12:40:08 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 12:41:39 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:41:40 - cantell_assistant - INFO - Chat message received: Are you sure about that?...
+2026-02-25 12:41:40 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 12:42:17 - cantell_assistant - INFO - Successfully generated chat response
+2026-02-25 12:42:56 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:42:57 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:42:57 - cantell_assistant - INFO - Generating greeting message
+2026-02-25 12:43:04 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:43:04 - cantell_assistant - INFO - Extracting text from PDF file
+2026-02-25 12:43:04 - cantell_assistant - INFO - PDF has 32 pages
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 143 characters from page 1
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 943 characters from page 2
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 917 characters from page 3
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 875 characters from page 4
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 781 characters from page 5
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 619 characters from page 6
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 1070 characters from page 7
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 970 characters from page 8
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 915 characters from page 9
+2026-02-25 12:43:05 - cantell_assistant - DEBUG - Extracted 942 characters from page 10
+2026-02-25 12:43:06 - cantell_assistant - DEBUG - Extracted 982 characters from page 11
+2026-02-25 12:43:06 - cantell_assistant - DEBUG - Extracted 1048 characters from page 12
+2026-02-25 12:43:06 - cantell_assistant - DEBUG - Extracted 851 characters from page 13
+2026-02-25 12:43:06 - cantell_assistant - DEBUG - Extracted 869 characters from page 14
+2026-02-25 12:43:06 - cantell_assistant - DEBUG - Extracted 970 characters from page 15
+2026-02-25 12:43:06 - cantell_assistant - DEBUG - Extracted 1025 characters from page 16
+2026-02-25 12:43:06 - cantell_assistant - DEBUG - Extracted 1204 characters from page 17
+2026-02-25 12:43:06 - cantell_assistant - DEBUG - Extracted 906 characters from page 18
+2026-02-25 12:43:07 - cantell_assistant - DEBUG - Extracted 875 characters from page 19
+2026-02-25 12:43:07 - cantell_assistant - DEBUG - Extracted 950 characters from page 20
+2026-02-25 12:43:07 - cantell_assistant - DEBUG - Extracted 854 characters from page 21
+2026-02-25 12:43:07 - cantell_assistant - DEBUG - Extracted 1025 characters from page 22
+2026-02-25 12:43:07 - cantell_assistant - DEBUG - Extracted 908 characters from page 23
+2026-02-25 12:43:07 - cantell_assistant - DEBUG - Extracted 997 characters from page 24
+2026-02-25 12:43:07 - cantell_assistant - DEBUG - Extracted 1006 characters from page 25
+2026-02-25 12:43:07 - cantell_assistant - DEBUG - Extracted 994 characters from page 26
+2026-02-25 12:43:07 - cantell_assistant - DEBUG - Extracted 953 characters from page 27
+2026-02-25 12:43:08 - cantell_assistant - DEBUG - Extracted 941 characters from page 28
+2026-02-25 12:43:08 - cantell_assistant - DEBUG - Extracted 1176 characters from page 29
+2026-02-25 12:43:08 - cantell_assistant - DEBUG - Extracted 1179 characters from page 30
+2026-02-25 12:43:08 - cantell_assistant - DEBUG - Extracted 932 characters from page 31
+2026-02-25 12:43:08 - cantell_assistant - INFO - Successfully extracted 28880 characters from PDF
+2026-02-25 12:43:08 - cantell_assistant - INFO - Summarizing text of length 28880 characters
+2026-02-25 12:43:08 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 12:48:47 - cantell_assistant - INFO - Successfully generated summary of 2961 characters
+2026-02-25 12:49:10 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:49:11 - cantell_assistant - INFO - PDF chat question: List names of the EIT's...
+2026-02-25 12:49:11 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 12:50:33 - cantell_assistant - INFO - Successfully generated PDF chat response
+2026-02-25 12:53:15 - cantell_assistant - INFO - Starting EIT Assistant application
+2026-02-25 12:53:16 - cantell_assistant - INFO - PDF chat question: List all the EIT's...
+2026-02-25 12:53:16 - cantell_assistant - DEBUG - Returning personality prompt
+2026-02-25 12:54:24 - cantell_assistant - INFO - Successfully generated PDF chat response
